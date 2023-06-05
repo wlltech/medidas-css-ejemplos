@@ -1,11 +1,25 @@
-section {
+.ejemplo-medida-absoluta {
     background-color: blanchedalmond;
     height: 100px;
     width: 600px;
 }
 
-h2 {
+.ejemplo-medida-absoluta h2{
     color: blueviolet;
     font-size: 22px;
     padding: 35px;
 }
+
+.ejemplo-medida-relativa-em{
+    background-color: rgb(220, 235, 216);
+    font-size: 1.5em;
+    height:6em;
+    width: 25em;
+}
+
+.ejemplo-medida-relativa-em h2 {
+    color: blueviolet;
+    font-size: 1.5em;
+    padding: 1em;
+}
+
