@@ -1,25 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
 .ejemplo-medida-absoluta {
     background-color: blanchedalmond;
     height: 100px;
-    width: 600px;
+    margin-left: 15px;
+    margin-top: 10px;
+    width: 750px;
 }
 
-.ejemplo-medida-absoluta h2{
-    color: blueviolet;
-    font-size: 22px;
+.ejemplo-medida-absoluta h2 {
+    color: rgb(74, 72, 20);
+    font-size: 20px;
     padding: 35px;
+    text-align: center;
 }
 
-.ejemplo-medida-relativa-em{
+.ejemplo-medida-relativa-em {
     background-color: rgb(220, 235, 216);
     font-size: 1.5em;
-    height:6em;
-    width: 25em;
+    height: 6em;
+    margin-left: 1em;
+    width: 50em;
 }
 
 .ejemplo-medida-relativa-em h2 {
-    color: blueviolet;
-    font-size: 1.5em;
+    color: rgb(13, 76, 44);
+    font-size: 2em;
     padding: 1em;
+    text-align: center
 }
 
+.ejemplo-medida-relativa-rem {
+    background-color: rgb(201, 231, 231);
+    height: 8rem;
+    margin-left: 1.5rem;
+    width: 75rem;
+}
+
+.ejemplo-medida-relativa-rem h2 {
+    color: rgb(27, 54, 53);
+    /* Los siguientes 2rem equivalen a 20px dado que el font size de la etiqueta html ha sido reseteado a 62.5%*/
+    font-size: 4rem;
+    padding: 2rem;
+    text-align: center;
+}
