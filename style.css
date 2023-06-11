@@ -52,3 +52,21 @@ html {
     padding: 2rem;
     text-align: center;
 }
+
+/* Los siguientes, son ejemplos de medidas min y max width */
+.ejemplo-medida-relativa-max-min {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(251, 209, 212);
+}
+
+.ejemplo-medida-relativa-max-min div {
+    width: 80%;
+    max-width: 800px;
+    min-width: 400px;
+    background-color: rgb(198, 130, 134);
+    margin: 0 auto;
+    font-size: 2.5rem;
+    color: aliceblue;
+    padding: 5rem;
+}
